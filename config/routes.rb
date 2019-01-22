@@ -3,4 +3,7 @@ Rails.application.routes.draw do
 
   root 'page#home'
   get 'about', to: 'page#about'
+
+  resources :articles
+   #this one line allows to index, show, edit, patch, update, destroy, create,etc.
 end
