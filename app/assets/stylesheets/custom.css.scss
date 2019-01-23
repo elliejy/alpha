@@ -16,3 +16,59 @@ $navbar-default-bg: #A8F1D1;
     color: #fff;
     text-decoration: none;
 }
+
+.center {
+    text-align: center;
+}
+
+.jumbotron{
+    background-image: asset-url('whale_tail.jpg');
+    background-size: cover;
+    height: 550px;
+}
+
+.jumbotron h1{
+    color : #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.btn-xlarge {
+    font-size: 1.7em;
+    background-color: black;
+    color: #F1A8F1;
+    text_decoration: none;
+
+}
+.btn-xlarge.hover {
+    background-color: #F1A8F1;
+    color: black;
+    text_decoration: none;
+}
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+}
+
+footer a:hover{
+    color: #222;
+}
+
+footer small{
+    float: left;
+}
+
+footer ul {
+    float: right;
+    list-style: none;
+}
+
+footer ul li {
+    float: left;
+    margin-left: 15px;
+}
