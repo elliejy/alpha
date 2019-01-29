@@ -5,5 +5,9 @@ Rails.application.routes.draw do
   get 'about', to: 'page#about'
 
   resources :articles
+
+  get 'signup', to: 'users#new'
+
+  resources :users, except: [:new]
    #this one line allows to index, show, edit, patch, update, destroy, create,etc.
 end
